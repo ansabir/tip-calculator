@@ -12,25 +12,25 @@
         <h1>Quick Tip</h1>
 
         <section>
-            <div>
+            <div class="bill">
                 <label for="yourBill">Bill</label>
                 <input type="number" placeholder="Your Bill" id="yourBill">
             </div>
 
             <div>
-                <div>
+                <div class="space-between">
                     <label for="tipInput">Select Tip</label>
                     <span id="tipPercent">0%</span>
                 </div>
                 <input type="range" value="0" id="tipInput" />
             </div>
 
-            <div>
+            <div class="space-between">
                 <span>Tip</span>
                 <span id="tipValue"></span>
             </div>
             <hr>
-            <div>
+            <div class="space-between total">
                 <span>Total</span>
                 <span id="totalWithTip"></span>
             </div>
@@ -39,19 +39,19 @@
 
         <section>
             <div>
-                <div>
+                <div class="space-between">
                     <label for="splitInput">Split</label>
-                    <span>1 person</span>
+                    <span id="splitValue">1 person</span>
                 </div>
                 <input type="range" min="1" max="10" value="1" id="splitInput">
             </div>
 
-            <div>
+            <div class="space-between">
                 <span>Bill each</span>
                 <span id="billEach"></span>
             </div>
 
-            <div>
+            <div class="space-between">
                 <span>Tip Each</span>
                 <span id="tipEach"></span>
             </div>
